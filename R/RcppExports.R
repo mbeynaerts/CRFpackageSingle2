@@ -2,50 +2,50 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 row_kron <- function(X, Y) {
-    .Call(`_CRFpackageSingle_row_kron`, X, Y)
+    .Call(`_CRFpackageSingle2_row_kron`, X, Y)
 }
 
 IndGreater <- function(x) {
-    .Call(`_CRFpackageSingle_IndGreater`, x)
+    .Call(`_CRFpackageSingle2_IndGreater`, x)
 }
 
 IndLess <- function(x) {
-    .Call(`_CRFpackageSingle_IndLess`, x)
+    .Call(`_CRFpackageSingle2_IndLess`, x)
 }
 
 IndEqual <- function(x) {
-    .Call(`_CRFpackageSingle_IndEqual`, x)
+    .Call(`_CRFpackageSingle2_IndEqual`, x)
 }
 
 Ind2 <- function(x, y, a, b) {
-    .Call(`_CRFpackageSingle_Ind2`, x, y, a, b)
+    .Call(`_CRFpackageSingle2_Ind2`, x, y, a, b)
 }
 
 risksetC <- function(x, y) {
-    .Call(`_CRFpackageSingle_risksetC`, x, y)
+    .Call(`_CRFpackageSingle2_risksetC`, x, y)
 }
 
 DeltaC <- function(x, y) {
-    .Call(`_CRFpackageSingle_DeltaC`, x, y)
+    .Call(`_CRFpackageSingle2_DeltaC`, x, y)
 }
 
 logLikC <- function(riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6) {
-    .Call(`_CRFpackageSingle_logLikC`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6)
+    .Call(`_CRFpackageSingle2_logLikC`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6)
 }
 
 gradientNew <- function(riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6, X1, X2, idxN1, idxN2) {
-    .Call(`_CRFpackageSingle_gradientNew`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6, X1, X2, idxN1, idxN2)
+    .Call(`_CRFpackageSingle2_gradientNew`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, I5, I6, X1, X2, idxN1, idxN2)
 }
 
 gradientPoly <- function(riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4, I5, I6) {
-    .Call(`_CRFpackageSingle_gradientPoly`, riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4, I5, I6)
+    .Call(`_CRFpackageSingle2_gradientPoly`, riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4, I5, I6)
 }
 
 hessianNew <- function(riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, X1, X2, idxN1, idxN2) {
-    .Call(`_CRFpackageSingle_hessianNew`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, X1, X2, idxN1, idxN2)
+    .Call(`_CRFpackageSingle2_hessianNew`, riskset1, riskset2, logtheta1, logtheta2, delta1, delta2, I1, I2, I3, I4, X1, X2, idxN1, idxN2)
 }
 
 hessianPolyC <- function(riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4) {
-    .Call(`_CRFpackageSingle_hessianPolyC`, riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4)
+    .Call(`_CRFpackageSingle2_hessianPolyC`, riskset1, riskset2, logtheta1, logtheta2, deriv, df, delta1, delta2, I1, I2, I3, I4)
 }
 
